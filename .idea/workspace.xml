@@ -2,131 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e99d98-4d10-40e5-a550-9714de2466c7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pingyougou-common/pingyougou-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pingyougou-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/pinyougou-dao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbAddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbAreasMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbCitiesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbContentCategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbContentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbFreightTemplateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbGoodsDescMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbGoodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbItemCatMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbOrderItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbPayLogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbProvincesMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbSellerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbSpecificationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbSpecificationOptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbTypeTemplateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbAddressMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbAreasMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbBrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbCitiesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbContentCategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbContentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbFreightTemplateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbGoodsDescMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbGoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbItemCatMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbOrderItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbPayLogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbProvincesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbSellerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbSpecificationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbSpecificationOptionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbTypeTemplateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/properties/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/target/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/target/classes/properties/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-dao/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-manager-web/pinyougou-manager-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-manager-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-manager-web/src/main/java/com/ming/pinyougou/manager/controller/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-manager-web/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-manager-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/classes/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-manager-web/target/classes/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-parent.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/pinyougou-pojo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbAddressExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbAreas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbAreasExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbBrandExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbCities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbCitiesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbContentCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbContentCategoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbContentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbFreightTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbFreightTemplateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbGoodsDesc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbGoodsDescExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbGoodsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbItemCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbItemCatExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbOrderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbOrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbOrderItemExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbPayLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbPayLogExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbProvinces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbProvincesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbSeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbSellerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbSpecificationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbSpecificationOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbSpecificationOptionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbTypeTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbTypeTemplateExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-pojo/src/main/java/com/ming/pinyougou/pojo/TbUserExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-interface/pinyougou-sellergoods-interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-interface/src/main/java/com/ming/pinyougou/sellergoods/service/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/pinyougou-sellergoods-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/ming/pinyougou/sellergoods/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/resources/spring/applicationContext-tx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/classes/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-sellergoods-service/target/classes/spring/applicationContext-tx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/pinyougou-shop-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/classes/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pinyougou-shop-web/target/classes/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-dao/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pinyougou-dao/target/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pinyougou-dao/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -160,15 +38,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pinyougou-manager-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="99" column="31" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BrandServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pinyougou-sellergoods-service/src/main/java/com/ming/pinyougou/sellergoods/service/impl/BrandServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -179,6 +48,15 @@
                 <element signature="e#625#626#0" expanded="true" />
                 <element signature="e#699#700#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pinyougou-dao/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="41" selection-start-line="11" selection-start-column="30" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -213,20 +91,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pinyougou-shop-web/src/main/resources/spring/springmvc.xml">
+      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pinyougou-dao/src/main/resources/spring/applicationContext-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            <state relative-caret-position="137">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pinyougou-dao/src/main/resources/spring/applicationContext-dao.xml">
+      <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pinyougou-dao/src/main/resources/mybatis/SqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="220">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -234,7 +112,7 @@
       <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pinyougou-manager-web/src/main/resources/spring/springmvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="398">
               <caret line="27" column="55" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="55" />
             </state>
           </provider>
@@ -290,7 +168,6 @@
         <option value="$PROJECT_DIR$/pinyougou-pojo/src/main/java/pojo/TbContentCategory.java" />
         <option value="$PROJECT_DIR$/pinyougou-dao/src/main/java/com/ming/pinyougou/mapper/TbPayLogMapper.java" />
         <option value="$PROJECT_DIR$/pinyougou-dao/src/main/resources/properties/db.properties" />
-        <option value="$PROJECT_DIR$/pinyougou-dao/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-dao/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-sellergoods-interface/pom.xml" />
@@ -323,6 +200,7 @@
         <option value="$PROJECT_DIR$/pinyougou-shop-web/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-sellergoods-service/pom.xml" />
         <option value="$PROJECT_DIR$/pinyougou-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pinyougou-dao/src/main/resources/spring/applicationContext-dao.xml" />
       </list>
     </option>
   </component>
@@ -371,10 +249,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="482" />
-    <option name="y" value="94" />
-    <option name="width" value="1356" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="26" />
+    <option name="width" value="1920" />
     <option name="height" value="986" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -394,7 +271,63 @@
             <path>
               <item name="pinyougou-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pinyougou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pinyougou-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pinyougou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pinyougou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyougou-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -632,19 +565,19 @@
       <workItem from="1540618295424" duration="442000" />
       <workItem from="1540618755921" duration="250000" />
       <workItem from="1540619025332" duration="436000" />
-      <workItem from="1540619480030" duration="3085000" />
+      <workItem from="1540619480030" duration="4570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13042000" />
+    <option name="totallyTimeSpent" value="14527000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1920" height="986" extended-state="7" />
+    <frame x="0" y="26" width="1920" height="986" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.3106223" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3106223" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -660,11 +593,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3296837" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22195122" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22195122" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15731707" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25853658" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3165236" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3165236" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -691,13 +624,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pinyougou-dao/src/main/resources/com/ming/pinyougou/mapper/TbItemMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-dao/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pinyougou-dao/src/main/resources/properties/db.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -753,13 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-647">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -960,13 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-dao/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pinyougou-sellergoods-interface/src/main/java/com/ming/pinyougou/sellergoods/service/BrandService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -986,13 +898,6 @@
             <element signature="e#625#626#0" expanded="true" />
             <element signature="e#699#700#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-manager-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -1022,6 +927,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pinyougou-sellergoods-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -1029,10 +948,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pinyougou-manager-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pinyougou-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="99" column="31" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="31" />
+        <state relative-caret-position="193">
+          <caret line="41" selection-start-line="11" selection-start-column="30" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-dao/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pinyougou-dao/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

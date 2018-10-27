@@ -11,8 +11,7 @@
 Web服务器:Tomcat<br/>
 代理服务器:Nginx<br/>
 图片服务器:FastDFS<br/>
-
-
+<image src = "./dir/pinyougou架构图.png" />
 
 
 
