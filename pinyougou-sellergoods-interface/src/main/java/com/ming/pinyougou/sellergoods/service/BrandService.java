@@ -1,5 +1,7 @@
 package com.ming.pinyougou.sellergoods.service;
 
+import com.ming.pinyougou.entity.PageResult;
+import com.ming.pinyougou.entity.Result;
 import com.ming.pinyougou.pojo.TbBrand;
 
 import java.util.List;
@@ -15,6 +17,46 @@ public interface BrandService {
      * @return
      */
      List<TbBrand> findAll();
+
+    /**
+     * 分页查找
+     * @param pageNum
+     * @param pageSize
+     * @return
+     */
+     PageResult findPage(Integer pageNum,Integer pageSize);
+
+
+     PageResult findPage(TbBrand tbBrand,Integer pageNum,Integer pageSize);
+
+    /**
+     * 查找一个
+     * @param id
+     * @return
+     */
+     TbBrand findByOne(Long id);
+
+    /**
+     * 添加
+     * @param tbBrand
+     * @return
+     */
+     Result add(TbBrand tbBrand);
+
+    /**
+     * 更新
+     * @param tbBrand
+     * @return
+     */
+     Result update(TbBrand tbBrand);
+
+
+    /**
+     * 删除
+     * @param ids
+     * @return
+     */
+    Result delete(Long[] ids);
 
 
 }

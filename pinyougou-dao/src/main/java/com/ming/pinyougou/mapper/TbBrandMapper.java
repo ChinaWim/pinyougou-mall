@@ -28,4 +28,6 @@ public interface TbBrandMapper {
     int updateByPrimaryKeySelective(TbBrand record);
 
     int updateByPrimaryKey(TbBrand record);
+
+    int deleteBatch(@Param("ids") Long[] ids);
 }

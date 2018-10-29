@@ -24,6 +24,7 @@ com/ming/pinyougou/pojo/TbUser.class
 com/ming/pinyougou/pojo/TbItemCatExample$Criterion.class
 com/ming/pinyougou/pojo/TbAreas.class
 com/ming/pinyougou/pojo/TbGoods.class
+com/ming/pinyougou/entity/PageResult.class
 com/ming/pinyougou/pojo/TbProvincesExample$Criteria.class
 com/ming/pinyougou/pojo/TbUserExample$Criterion.class
 com/ming/pinyougou/pojo/TbCitiesExample.class
@@ -66,6 +67,7 @@ com/ming/pinyougou/pojo/TbBrand.class
 com/ming/pinyougou/pojo/TbOrderExample$Criterion.class
 com/ming/pinyougou/pojo/TbGoodsDescExample$GeneratedCriteria.class
 com/ming/pinyougou/pojo/TbAddressExample$GeneratedCriteria.class
+com/ming/pinyougou/entity/Result.class
 com/ming/pinyougou/pojo/TbOrderItemExample$Criteria.class
 com/ming/pinyougou/pojo/TbTypeTemplate.class
 com/ming/pinyougou/pojo/TbItemCatExample.class

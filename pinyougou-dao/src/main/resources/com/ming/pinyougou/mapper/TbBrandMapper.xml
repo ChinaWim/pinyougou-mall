@@ -97,7 +97,22 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.ming.pinyougou.pojo.TbBrand" >
+
+    <delete id="deleteBatch" parameterType="map">
+      delete from tb_brand
+      <if test="ids != null and ids.length != 0">
+        where id in(
+        <foreach collection="ids" separator="," item="id">
+          #{id}
+        </foreach>
+        )
+      </if>
+      <if test="ids == null || ids.length == 0">
+          where id = -9999
+      </if>
+    </delete>
+
+    <insert id="insert" parameterType="com.ming.pinyougou.pojo.TbBrand" >
     insert into tb_brand (id, name, first_char
       )
     values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{firstChar,jdbcType=VARCHAR}
