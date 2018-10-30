@@ -5,6 +5,7 @@ import com.ming.pinyougou.pojo.TbBrandExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 public interface TbBrandMapper {
     int countByExample(TbBrandExample example);
@@ -30,4 +31,6 @@ public interface TbBrandMapper {
     int updateByPrimaryKey(TbBrand record);
 
     int deleteBatch(@Param("ids") Long[] ids);
+
+    List<Map> selectOptionList();
 }

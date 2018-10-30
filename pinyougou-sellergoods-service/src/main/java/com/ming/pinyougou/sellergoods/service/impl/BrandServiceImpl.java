@@ -12,6 +12,7 @@ import com.ming.pinyougou.sellergoods.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author m969130721@163.com
@@ -79,5 +80,10 @@ public class BrandServiceImpl implements BrandService {
         int effect = tbBrandMapper.deleteBatch(ids);
         return effect > 0 ? new Result(true, "删除成功")
                 : new Result(false, "删除失败");
+    }
+
+    @Override
+    public List<Map> selectOptionList() {
+        return tbBrandMapper.selectOptionList();
     }
 }

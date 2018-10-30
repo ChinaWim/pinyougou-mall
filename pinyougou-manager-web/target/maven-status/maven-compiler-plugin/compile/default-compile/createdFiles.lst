@@ -1,1 +1,9 @@
+com/ming/pinyougou/manager/controller/TypeTemplateController.class
+com/ming/pinyougou/manager/controller/GoodsController.class
+com/ming/pinyougou/manager/controller/SpecificationOptionController.class
+com/ming/pinyougou/manager/controller/SellerController.class
+com/ming/pinyougou/manager/controller/SpecificationController.class
+com/ming/pinyougou/manager/controller/ItemController.class
+com/ming/pinyougou/manager/controller/GoodsDescController.class
+com/ming/pinyougou/manager/controller/ItemCatController.class
 com/ming/pinyougou/manager/controller/BrandController.class

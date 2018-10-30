@@ -5,6 +5,7 @@ import com.ming.pinyougou.entity.Result;
 import com.ming.pinyougou.pojo.TbBrand;
 
 import java.util.List;
+import java.util.Map;
 
 /**品牌服务
  * @author m969130721@163.com
@@ -59,4 +60,5 @@ public interface BrandService {
     Result delete(Long[] ids);
 
 
+    List<Map> selectOptionList();
 }

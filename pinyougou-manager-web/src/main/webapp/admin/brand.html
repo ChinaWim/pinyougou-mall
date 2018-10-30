@@ -17,6 +17,18 @@
     <script src="../plugins/angularjs/pagination.js"></script>
     <link rel="stylesheet" href="../plugins/angularjs/pagination.css">
     <!-- 分页组件结束 -->
+
+    <script type="text/javascript" src="../js/base_pagination.js"></script>
+
+    <!--service-->
+    <script type="text/javascript" src="../js/service/brandService.js"></script>
+
+    <!--controller-->
+    <script type="text/javascript" src="../js/controller/brandController.js"></script>
+    <script type="text/javascript" src="../js/controller/baseController.js"></script>
+
+
+
 </head>
 
 
@@ -38,7 +50,9 @@
                     <button type="button" class="btn btn-default" ng-click="entity={}" title="新建" data-toggle="modal"
                             data-target="#editModal"><i class="fa fa-file-o"></i> 新建
                     </button>
-                    <button type="button"  ng-click="dele()" class="btn btn-default" title="删除"><i class="fa fa-trash-o"></i> 删除</button>
+                    <button type="button" ng-click="dele()" class="btn btn-default" title="删除"><i
+                            class="fa fa-trash-o"></i> 删除
+                    </button>
                     <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i
                             class="fa fa-refresh"></i> 刷新
                     </button>
@@ -48,7 +62,7 @@
         <div class="box-tools pull-right">
             <div class="has-feedback">
                 品牌名称:<input ng-model="searchEntity.name"> 品牌首字母:<input ng-model="searchEntity.firstChar">
-                <button  class="btn btn-default" ng-click="reloadList()">查询</button>
+                <button class="btn btn-default" ng-click="reloadList()">查询</button>
             </div>
         </div>
         <!--工具栏/-->
@@ -69,12 +83,13 @@
             </thead>
             <tbody>
             <tr ng-repeat="brand in list">
-                <td><input type="checkbox"   ng-click="updateSelection($event,brand.id)"></td>
+                <td><input type="checkbox" ng-click="updateSelection($event,brand.id)"></td>
                 <td>{{brand.id}}</td>
                 <td>{{brand.name}}</td>
                 <td>{{brand.firstChar}}</td>
                 <td class="text-center">
-                    <button type="button" ng-click="findOne(brand.id)" class="btn bg-olive btn-xs" data-toggle="modal" data-target="#editModal">修改
+                    <button type="button" ng-click="findOne(brand.id)" class="btn bg-olive btn-xs" data-toggle="modal"
+                            data-target="#editModal">修改
                     </button>
                 </td>
             </tr>
@@ -100,7 +115,7 @@
                 <table class="table table-bordered table-striped" width="800px">
                     <tr>
                         <td>品牌名称</td>
-                        <td><input class="form-control"  ng-model="entity.name" placeholder="品牌名称"></td>
+                        <td><input class="form-control" ng-model="entity.name" placeholder="品牌名称"></td>
                     </tr>
                     <tr>
                         <td>首字母</td>
@@ -117,97 +132,5 @@
 </div>
 </body>
 
-<script type="text/javascript">
-    var app = angular.module('pinyougou', ['pagination']);//定义模块
-    app.controller('brandController', function ($scope, $http) {
-        //读取列表数据绑定到表单中
-        /*    $scope.findAll=function(){
-                $http.get('../brand/findAll.do').success(function(data){
-                    $scope.list=data;
-                });
-            };*/
-
-        //分页控件配置
-        $scope.paginationConf = {
-            currentPage: 1,
-            totalItems: 10,
-            itemsPerPage: 10,
-            perPageOptions: [5, 20, 30, 40, 50],
-            onChange: function () {
-                $scope.reloadList();//重新加载
-            }
-        };
-        $scope.reloadList = function () {
-            //切换页码
-            $scope.search($scope.paginationConf.currentPage, $scope.paginationConf.itemsPerPage);
-        };
-
-        //保存
-        $scope.save = function () {
-
-            //方法名称
-            var methodName = 'add';
-            if($scope.entity.id != null){
-                methodName = 'update';
-            }
-            $http.post("../brand/"+methodName+".do",$scope.entity).success(function (data) {
-                if (data.success){
-                    $scope.reloadList();
-                }else {
-                    alert(data.message);
-                }
-            });
-        };
-        //获取单个
-        $scope.findOne = function (id) {
-            $http.get("../brand/findOne.do?id="+id).success(function (data) {
-                $scope.entity = data;
-            });
-        };
-
-
-        //选中的ID集合
-        $scope.selectIds=[];
-        //更新复选
-        $scope.updateSelection = function($event,id){
-            //如果是被选中，则添加到数组
-            if ($event.target.checked){
-                $scope.selectIds.push(id);
-            }else {
-                var idx = $scope.selectIds.indexOf(id);
-                //删除
-                $scope.selectIds.splice(idx,1);
-            }
-        };
-
-        //todo post
-        //批量删除
-        $scope.dele=function(){
-            if(confirm('确定?')){
-                $http.get("../brand/delete.do?ids="+$scope.selectIds).success(function (data) {
-                    if (data.success){
-                        $scope.reloadList();
-                        $scope.selectIds=[];
-                    }else {
-                        alert(data.message);
-                    }
-                });
-            }
-
-        };
-
-        $scope.searchEntity={};
-        //页面条件查找加显示
-        $scope.search = function(page,rows){
-            $http.post("../brand/search.do?page="+page+"&rows="+rows,$scope.searchEntity).success(function (data) {
-                $scope.list = data.rows;
-                $scope.paginationConf.totalItems = data.total;//更新总记录数
-            });
-        };
-
-
-
-    });
-</script>
 
 </html>

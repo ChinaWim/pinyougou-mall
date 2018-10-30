@@ -81,7 +81,7 @@
     </if>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
-    select 
+    select
     <include refid="Base_Column_List" />
     from tb_specification
     where id = #{id,jdbcType=BIGINT}
@@ -96,11 +96,14 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.ming.pinyougou.pojo.TbSpecification" >
+
+  <insert id="insert" useGeneratedKeys="true" keyProperty="id"   parameterType="com.ming.pinyougou.pojo.TbSpecification" >
+
     insert into tb_specification (id, spec_name)
     values (#{id,jdbcType=BIGINT}, #{specName,jdbcType=VARCHAR})
+
   </insert>
-  <insert id="insertSelective" parameterType="com.ming.pinyougou.pojo.TbSpecification" >
+  <insert id="insertSelective" useGeneratedKeys="true" keyProperty="id" parameterType="com.ming.pinyougou.pojo.TbSpecification" >
     insert into tb_specification
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -124,6 +127,9 @@
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
+  </select>
+  <select id="selectOptionList" resultType="java.util.Map">
+    select id,spec_name as text from tb_specification
   </select>
   <update id="updateByExampleSelective" parameterType="map" >
     update tb_specification

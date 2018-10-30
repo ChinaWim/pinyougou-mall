@@ -1,1 +1,9 @@
+com/ming/pinyougou/sellergoods/service/GoodsService.class
+com/ming/pinyougou/sellergoods/service/TypeTemplateService.class
+com/ming/pinyougou/sellergoods/service/SpecificationOptionService.class
+com/ming/pinyougou/sellergoods/service/ItemService.class
+com/ming/pinyougou/sellergoods/service/ItemCatService.class
+com/ming/pinyougou/sellergoods/service/SellerService.class
 com/ming/pinyougou/sellergoods/service/BrandService.class
+com/ming/pinyougou/sellergoods/service/GoodsDescService.class
+com/ming/pinyougou/sellergoods/service/SpecificationService.class

@@ -8,6 +8,7 @@ com/ming/pinyougou/pojo/TbContentCategoryExample$Criterion.class
 com/ming/pinyougou/pojo/TbSpecificationOptionExample$GeneratedCriteria.class
 com/ming/pinyougou/pojo/TbSeller.class
 com/ming/pinyougou/pojo/TbCitiesExample$GeneratedCriteria.class
+com/ming/pinyougou/pojogroup/Specification.class
 com/ming/pinyougou/pojo/TbCitiesExample$Criterion.class
 com/ming/pinyougou/pojo/TbProvincesExample$GeneratedCriteria.class
 com/ming/pinyougou/pojo/TbSellerExample$GeneratedCriteria.class
