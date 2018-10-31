@@ -111,16 +111,6 @@ app.controller('typeTemplateController' ,function($scope,$controller,typeTemplat
 
 
 
-/*
-	//更新扩展属性checked
-    $scope.updateCAItemsSelection = function ($event,name) {
-        if($event.target.checked){
-
-		}
-    }
-*/
-
-
 
     
 });	
