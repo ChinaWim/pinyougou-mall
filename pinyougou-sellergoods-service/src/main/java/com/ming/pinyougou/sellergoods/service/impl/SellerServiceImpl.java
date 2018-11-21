@@ -1,7 +1,9 @@
 package com.ming.pinyougou.sellergoods.service.impl;
+import java.util.Date;
 import java.util.List;
 
 import com.ming.pinyougou.entity.PageResult;
+import com.ming.pinyougou.entity.Result;
 import com.ming.pinyougou.mapper.TbSellerMapper;
 import com.ming.pinyougou.pojo.TbSeller;
 import com.ming.pinyougou.pojo.TbSellerExample;
@@ -47,6 +49,8 @@ public class SellerServiceImpl implements SellerService {
 	 */
 	@Override
 	public void add(TbSeller seller) {
+		seller.setStatus("0");
+		seller.setCreateTime(new Date());
 		sellerMapper.insert(seller);		
 	}
 
@@ -56,7 +60,7 @@ public class SellerServiceImpl implements SellerService {
 	 */
 	@Override
 	public void update(TbSeller seller){
-		sellerMapper.updateByPrimaryKey(seller);
+		sellerMapper.updateByPrimaryKeySelective(seller);
 	}	
 	
 	/**
@@ -160,5 +164,15 @@ public class SellerServiceImpl implements SellerService {
 		Page<TbSeller> page= (Page<TbSeller>)sellerMapper.selectByExample(example);		
 		return new PageResult(page.getTotal(), page.getResult());
 	}
-	
+
+	@Override
+	public Result updateStatus(String sellerId, String status) {
+		TbSeller seller = new TbSeller();
+		seller.setSellerId(sellerId);
+		seller.setStatus(status);
+		int effect = sellerMapper.updateByPrimaryKeySelective(seller);
+		return effect > 0 ? new Result(true,"更新成功")
+				: new Result(true,"更新失败");
+	}
+
 }

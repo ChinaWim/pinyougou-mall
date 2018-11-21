@@ -11,13 +11,14 @@
     <http pattern="/js/**" security="none"></http>
     <http pattern="/plugins/**" security="none"></http>
 
-    <!--页面拦截规则-->
+    <!--页面拦截规则  use-expressions说明不使用表达式,就不用access=hasRole(xxxx)-->
     <http use-expressions="false">
         <intercept-url pattern="/**" access="ROLE_ADMIN"></intercept-url>
         <form-login login-page="/login.html" default-target-url="/admin/index.html" authentication-failure-url="/login.html" always-use-default-target="true"/>
         <csrf disabled="true"/>
         <!--frame跨域显示-->
         <headers>
+            <!--设置frame为同源-->
             <frame-options policy="SAMEORIGIN"/>
         </headers>
         <logout logout-success-url="/login.html"/>

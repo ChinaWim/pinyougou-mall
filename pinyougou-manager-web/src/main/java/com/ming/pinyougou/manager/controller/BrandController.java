@@ -76,7 +76,7 @@ public class BrandController {
     }
 
 
-    @RequestMapping("/selectOptionList.do")
+              @RequestMapping("/selectOptionList.do")
     public List<Map> selectOptionList() {
         return brandService.selectOptionList();
     }

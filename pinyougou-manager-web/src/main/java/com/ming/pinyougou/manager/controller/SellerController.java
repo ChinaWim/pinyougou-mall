@@ -1,4 +1,5 @@
 package com.ming.pinyougou.manager.controller;
+import java.util.Date;
 import java.util.List;
 
 import com.ming.pinyougou.entity.PageResult;
@@ -110,5 +111,18 @@ public class SellerController {
 	public PageResult search(@RequestBody TbSeller seller, int page, int rows  ){
 		return sellerService.findPage(seller, page, rows);		
 	}
+
+
+
+    @RequestMapping("/updateStatus")
+    public Result updateStatus(String sellerId,String status) {
+        try{
+            return sellerService.updateStatus(sellerId,status);
+        }catch (Exception e){
+            return new Result(false,e.getMessage());
+        }
+
+    }
+
 	
 }

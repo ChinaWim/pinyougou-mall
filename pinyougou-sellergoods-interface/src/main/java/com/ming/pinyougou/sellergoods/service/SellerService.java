@@ -2,6 +2,7 @@ package com.ming.pinyougou.sellergoods.service;
 import java.util.List;
 
 import com.ming.pinyougou.entity.PageResult;
+import com.ming.pinyougou.entity.Result;
 import com.ming.pinyougou.pojo.TbSeller;
 /**
  * 服务层接口
@@ -57,5 +58,13 @@ public interface SellerService {
 	 * @return
 	 */
 	public PageResult findPage(TbSeller seller, int pageNum, int pageSize);
-	
+
+
+	/**
+	 * 更新状态
+	 * @param sellerId
+	 * @param status
+	 * @return
+	 */
+    Result updateStatus(String sellerId, String status);
 }

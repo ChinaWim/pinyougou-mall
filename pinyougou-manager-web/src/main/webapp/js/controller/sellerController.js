@@ -1,5 +1,5 @@
  //控制层 
-app.controller('sellerController' ,function($scope,$controller   ,sellerService){	
+app.controller('sellerController' ,function($scope,$controller,sellerService){
 	
 	$controller('baseController',{$scope:$scope});//继承
 	
@@ -8,9 +8,10 @@ app.controller('sellerController' ,function($scope,$controller   ,sellerService)
 		sellerService.findAll().success(
 			function(response){
 				$scope.list=response;
+
 			}			
 		);
-	}    
+	};
 	
 	//分页
 	$scope.findPage=function(page,rows){			
@@ -20,39 +21,59 @@ app.controller('sellerController' ,function($scope,$controller   ,sellerService)
 				$scope.paginationConf.totalItems=response.total;//更新总记录数
 			}			
 		);
-	}
+	};
 	
 	//查询实体 
-	$scope.findOne=function(id){				
+	$scope.findOne=function(id){
 		sellerService.findOne(id).success(
 			function(response){
-				$scope.entity= response;					
+				$scope.entity= response;
 			}
 		);				
-	}
+	};
 	
 	//保存 
-	$scope.save=function(){				
-		var serviceObject;//服务层对象  				
-		if($scope.entity.id!=null){//如果有ID
-			serviceObject=sellerService.update( $scope.entity ); //修改  
-		}else{
-			serviceObject=sellerService.add( $scope.entity  );//增加 
-		}				
-		serviceObject.success(
+	$scope.add=function(){
+        sellerService.add( $scope.entity  ).success(
 			function(response){
 				if(response.success){
-					//重新查询 
-		        	$scope.reloadList();//重新加载
+					//跳转到前台登录页面
+					location.href = "'shoplogin.html";
 				}else{
 					alert(response.message);
 				}
 			}		
 		);				
-	}
-	
-	 
-	//批量删除 
+	};
+
+
+    $scope.update=function(){
+        sellerService.update($scope.entity).success(
+            function(response){
+                if(response.success){
+                    $scope.reloadList();
+                }else{
+                    alert(response.message);
+                }
+            }
+        );
+    };
+
+    //审核
+    $scope.updateStatus=function(sellerId,status){
+        sellerService.updateStatus(sellerId,status).success(
+            function(response){
+                if(response.success){
+                    $scope.reloadList();
+                }else{
+                    alert(response.message);
+                }
+            }
+        );
+    };
+
+
+    //批量删除
 	$scope.dele=function(){			
 		//获取选中的复选框			
 		sellerService.dele( $scope.selectIds ).success(
@@ -63,7 +84,7 @@ app.controller('sellerController' ,function($scope,$controller   ,sellerService)
 				}						
 			}		
 		);				
-	}
+	};
 	
 	$scope.searchEntity={};//定义搜索对象 
 	
@@ -73,6 +94,22 @@ app.controller('sellerController' ,function($scope,$controller   ,sellerService)
 			function(response){
 				$scope.list=response.rows;	
 				$scope.paginationConf.totalItems=response.total;//更新总记录数
+
+                for(var i = 0; i < $scope.list.length; i ++){
+                    //todo
+                    if($scope.list[i]['status'] == "0"){
+                        $scope.list[i]['status'] = "未审核"
+                    }
+                    if($scope.list[i]['status'] == "1"){
+                        $scope.list[i]['status'] = "已审核"
+                    }
+                    if($scope.list[i]['status'] == "2"){
+                        $scope.list[i]['status'] = "审核未通过"
+                    }
+                    if($scope.list[i]['status'] == "3"){
+                        $scope.list[i]['status'] = "关闭"
+                    }
+                }
 			}			
 		);
 	}
