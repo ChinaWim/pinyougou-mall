@@ -16,7 +16,6 @@ app.controller("baseController",function ($scope) {
         $scope.search($scope.paginationConf.currentPage, $scope.paginationConf.itemsPerPage);
     };
 
-
     //定义选中的ID集合
     $scope.selectIds = [];
     //更新复选

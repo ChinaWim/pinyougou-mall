@@ -38,7 +38,7 @@
 
 
 
-    <!-- 引用dubbo 服务 -->
+    <!-- 引用dubbox 服务 -->
     <dubbo:application name="pinyougou-shop-web" />
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
     <dubbo:reference id="sellerService"  interface="com.ming.pinyougou.sellergoods.service.SellerService" >
