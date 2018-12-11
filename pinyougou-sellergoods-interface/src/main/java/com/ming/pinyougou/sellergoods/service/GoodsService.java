@@ -3,6 +3,8 @@ import java.util.List;
 
 import com.ming.pinyougou.entity.PageResult;
 import com.ming.pinyougou.pojo.TbGoods;
+import com.ming.pinyougou.pojogroup.Goods;
+
 /**
  * 服务层接口
  * @author Administrator
@@ -15,26 +17,26 @@ public interface GoodsService {
 	 * @return
 	 */
 	public List<TbGoods> findAll();
-	
-	
+
+
 	/**
 	 * 返回分页列表
 	 * @return
 	 */
 	public PageResult findPage(int pageNum, int pageSize);
-	
-	
+
+
 	/**
 	 * 增加
 	*/
-	public void add(TbGoods goods);
-	
-	
+	public void add(Goods goods);
+
+
 	/**
 	 * 修改
 	 */
 	public void update(TbGoods goods);
-	
+
 
 	/**
 	 * 根据ID获取实体
@@ -42,8 +44,8 @@ public interface GoodsService {
 	 * @return
 	 */
 	public TbGoods findOne(Long id);
-	
-	
+
+
 	/**
 	 * 批量删除
 	 * @param ids
@@ -57,5 +59,5 @@ public interface GoodsService {
 	 * @return
 	 */
 	public PageResult findPage(TbGoods goods, int pageNum, int pageSize);
-	
+
 }

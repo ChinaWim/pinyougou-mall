@@ -83,6 +83,7 @@ com/ming/pinyougou/pojo/TbUserExample$GeneratedCriteria.class
 com/ming/pinyougou/pojo/TbItemCat.class
 com/ming/pinyougou/pojo/TbSellerExample$Criterion.class
 com/ming/pinyougou/pojo/TbContentCategoryExample$Criteria.class
+com/ming/pinyougou/pojogroup/Goods.class
 com/ming/pinyougou/pojo/TbSellerExample$Criteria.class
 com/ming/pinyougou/pojo/TbGoodsExample$Criteria.class
 com/ming/pinyougou/pojo/TbSpecification.class
